@@ -1,0 +1,28 @@
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX11 succeded with the following output:
+Change Dir: /Users/chenzhen/Documents/workspace-git/dlib/dlib/test/build/cpp11_test_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec185541509/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec185541509.dir/build.make CMakeFiles/cmTryCompileExec185541509.dir/build
+/usr/local/Cellar/cmake/3.2.3/bin/cmake -E cmake_progress_report /Users/chenzhen/Documents/workspace-git/dlib/dlib/test/build/cpp11_test_build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec185541509.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -DCOMPILER_SUPPORTS_CXX11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk   -std=c++11 -o CMakeFiles/cmTryCompileExec185541509.dir/src.cxx.o -c /Users/chenzhen/Documents/workspace-git/dlib/dlib/test/build/cpp11_test_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec185541509
+/usr/local/Cellar/cmake/3.2.3/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec185541509.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -DCOMPILER_SUPPORTS_CXX11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec185541509.dir/src.cxx.o  -o cmTryCompileExec185541509  
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX0X succeded with the following output:
+Change Dir: /Users/chenzhen/Documents/workspace-git/dlib/dlib/test/build/cpp11_test_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4265578964/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec4265578964.dir/build.make CMakeFiles/cmTryCompileExec4265578964.dir/build
+/usr/local/Cellar/cmake/3.2.3/bin/cmake -E cmake_progress_report /Users/chenzhen/Documents/workspace-git/dlib/dlib/test/build/cpp11_test_build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec4265578964.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -DCOMPILER_SUPPORTS_CXX0X -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk   -std=c++0x -o CMakeFiles/cmTryCompileExec4265578964.dir/src.cxx.o -c /Users/chenzhen/Documents/workspace-git/dlib/dlib/test/build/cpp11_test_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec4265578964
+/usr/local/Cellar/cmake/3.2.3/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4265578964.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -DCOMPILER_SUPPORTS_CXX0X -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec4265578964.dir/src.cxx.o  -o cmTryCompileExec4265578964  
+
+Source file was:
+int main() { return 0; }
